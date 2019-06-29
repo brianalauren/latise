@@ -4,6 +4,7 @@ var cleanCss = require("gulp-clean-css");
 var sourcemaps = require("gulp-sourcemaps");
 var browserSync = require("browser-sync").create();
 var imagemin = require("gulp-imagemin");
+var runSequence = require("run-sequence");
 
 sass.compiler = require("node-sass");
 
