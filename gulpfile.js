@@ -7,6 +7,10 @@ var imagemin = require("gulp-imagemin");
 
 sass.compiler = require("node-sass");
 
+gulp.task("build", function(callback) {
+  runSequence("clean:dist", ["sass", "html", "java", "images"], callback);
+});
+
 gulp.task("sass", function() {
   return gulp
     .src("src/css/style.scss")
