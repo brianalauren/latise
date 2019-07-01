@@ -28,6 +28,7 @@
   "homepage": "https://github.com/brianalauren/latise#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "del": "^4.1.1",
     "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.2.0",
